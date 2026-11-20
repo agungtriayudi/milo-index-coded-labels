@@ -1,5 +1,7 @@
 # MILO: metrology-informed learning from index-coded ordinal labels
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24408211.svg)](https://doi.org/10.5281/zenodo.24408211)
+
 Code, run logs and figures for the manuscript
 **"Learning the truth behind index-coded labels: metrology-informed neural forecasting with online risk control for air-quality warnings"** (submitted to *Neurocomputing*).
 
@@ -63,6 +65,10 @@ On two CPU cores the full grid takes about 1.5 h; `main` alone about 40 min.
 Method codes used in file names: `CE`, `LS`, `GCE`, `FwdT` (Forward-T), `CORAL`, `SORD`, `MSE` (MSE-reg),
 `HetG` (Het-Gauss), `LD` (MILO-LD), `LD-flat`, `LT` (MILO-LT), `LT-noN` (w/o noise), `LT-noC` (w/o censoring),
 `LT@s` (MILO-LT with assumed noise *s*).
+
+## Citation
+
+Please cite the archived release: A. Triayudi, *MILO: metrology-informed learning from index-coded ordinal labels* (v1.0.0), Zenodo, 2026, <https://doi.org/10.5281/zenodo.24408211>. The DOI <https://doi.org/10.5281/zenodo.24408210> always resolves to the latest version. GitHub's *Cite this repository* button reads the same metadata from `CITATION.cff`.
 
 ## Licence
 
