@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+type: software
+title: "MILO: metrology-informed learning from index-coded ordinal labels"
+abstract: >-
+  Code, run logs and figures for the manuscript "Learning the truth behind
+  index-coded labels: metrology-informed neural forecasting with online risk
+  control for air-quality warnings". The package contains a NumPy
+  reverse-mode automatic-differentiation engine, the MILO-LT, MILO-LD and
+  MILO-RC methods, the baselines and ablations, the experiment grid (672
+  trained networks on daily ISPU records of five Jakarta stations,
+  2010-2025), aggregated tables and Figures 1-7.
+authors:
+  - family-names: Triayudi
+    given-names: Agung
+    affiliation: Universitas Nasional
+version: 1.0.0
+date-released: 2026-11-21
+license: MIT
+repository-code: "https://github.com/agungtriayudi/milo-index-coded-labels"
+keywords:
+  - index-coded labels
+  - ordinal classification
+  - label noise
+  - measurement uncertainty
+  - interval censoring
+  - risk control
+  - air quality
+  - ISPU
+  - Jakarta
