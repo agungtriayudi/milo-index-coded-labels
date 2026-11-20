@@ -1,0 +1,19 @@
+add/mul/sub/div bcast              max rel err 3.96e-08
+pow/neg/rsub                       max rel err 6.49e-09
+batched matmul                     max rel err 1.49e-08
+transpose/reshape                  max rel err 2.63e-09
+getitem/concat                     max rel err 5.00e-09
+sum/mean axes                      max rel err 1.48e-09
+exp/log/tanh/sigmoid               max rel err 7.70e-08
+relu/softplus                      max rel err 1.52e-09
+softmax                            max rel err 1.16e-08
+log_softmax                        max rel err 6.82e-08
+layernorm                          max rel err 1.46e-07
+censored NLL (tau = sqrt(s2+.1))   max rel err 3.33e-08
+fused GRU (all states)             max rel err 1.05e-07
+MLP backbone + latent head         max rel err 1.15e-08
+GRU backbone + latent head         max rel err 4.62e-08
+TCN backbone + latent head         max rel err 7.59e-08
+TRF backbone + latent head         max rel err 1.12e-07
+cumulative (CORAL) head            max rel err 5.33e-08
+WORST 1.464394408190268e-07
